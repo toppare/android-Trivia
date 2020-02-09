@@ -58,9 +58,14 @@ class GameFragment : Fragment() {
             Question(text = "1+1?",
                     answers = listOf("2", "3", "4")),
             Question(text = "2+2?",
-                    answers = listOf("4", "5", "6", "7"))
+                    answers = listOf("4", "5", "6", "7")),
+            Question(text = "1+2?",
+                    answers = listOf("3", "5", "4")),
+            Question(text = "2+3?",
+                    answers = listOf("5", "8", "6", "7"))
 
-            )
+
+    )
 
     lateinit var currentQuestion: Question
     lateinit var answers: MutableList<String>
